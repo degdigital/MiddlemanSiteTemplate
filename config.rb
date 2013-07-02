@@ -1,7 +1,7 @@
 ###
 # Compass
 ###
-
+  require 'compass-normalize'
 # Susy grids in Compass
 # First: gem install susy
 # require 'susy'
