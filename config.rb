@@ -8,7 +8,7 @@
 
 # Change Compass configuration
 # compass_config do |config|
-#   config.output_style = :compact
+  config.output_style = :compact
 # end
 
 ###
@@ -36,9 +36,6 @@
 ###
 # Helpers
 ###
-
-# Automatic image dimensions on image_tag helper
-# activate :automatic_image_sizes
 
 # Methods defined in the helpers block are available in templates
 # helpers do

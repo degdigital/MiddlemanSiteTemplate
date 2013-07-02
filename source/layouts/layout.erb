@@ -8,9 +8,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-        <title><%= data.page.title || "The Middleman" %></title>        
+        <title><%= data.page.title || "The Middleman" %></title>
         <%= stylesheet_link_tag "all" %>
-        <%= javascript_include_tag  "init" %>
+        <%= javascript_include_tag  "plugins/modernizr","init" %>
     </head>
     <body class="<%= page_classes %>">
 
