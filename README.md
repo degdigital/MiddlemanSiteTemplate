@@ -14,5 +14,5 @@ git clone git://github.com/degdigital/MiddlemanSiteTemplate.git ~/.middleman/Mid
 Then:
 
 ```bash
-middleman init middleman_email_template --template=MiddlemanSiteTemplate
+middleman init middleman_website --template=MiddlemanSiteTemplate
 ```

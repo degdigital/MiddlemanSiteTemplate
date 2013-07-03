@@ -2,5 +2,8 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem "middleman", "~>3.0.14"
+gem "middleman", "~>3.1.2"
 gem "compass-normalize", "~> 1.4.3"
+
+require 'rbconfig'
+gem 'wdm', '>= 0.1.0' if RbConfig::CONFIG['target_os'] =~ /mswin|mingw/i

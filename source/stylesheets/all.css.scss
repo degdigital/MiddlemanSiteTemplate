@@ -1,6 +1,9 @@
 @import "normalize";
 @import "compass/utilities/general/clearfix";
 @import "compass/css3";
+@import "compass/css3/inline-block";
+
+@import "Partials/utilities";
 
 body {
     font-size: 1em;
